@@ -1,0 +1,16 @@
+{
+	"name":"Stumble",
+	"description":"You are prone to stumbling. There is a small chance of tripping and hurting yourself.",
+	"author":"ZiarayZ",
+	"contact":"ZiarayZ#0095 via Discord",
+	"version":"1",
+	"color": "40 40 255",
+	"blt_version": 2,
+	"image": "mod.png",
+	"hooks" :
+	[
+		{	"hook_id":"lib/units/beings/player/states/playerstandard",
+		 	"script_path":"trip.lua"
+		}
+	]
+}
